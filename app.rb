@@ -41,6 +41,8 @@ class App < Sinatra::Base
       (@number1 + @number2).to_s
      when "subtract"
       (@number1 - @number2)
+     when "multiply"
+      (@number1 * @number2)
     end
 
 
