@@ -51,9 +51,9 @@ end
   #   @operations = params[:operation]
   #   @number1 = params[:number].to_i
   #   @number2 = params[:number].to_i
-  # 
+  #
   #   case @operation
-  # 
+  #
   #    when "add"
   #     (@number1 + @number2).to_s
   #    when "subtract"
