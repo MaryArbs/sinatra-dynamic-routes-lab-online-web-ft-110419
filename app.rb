@@ -22,7 +22,7 @@ class App < Sinatra::Base
     <% phrase_array = [] %>
   <% @number.times {|x| phrase_array << @phrase} %>
   <%= phrase_array.join(" ") %>
-    
+
   end
 
 end
