@@ -13,4 +13,6 @@ class App < Sinatra::Base
     square.to_s
   end
 
+  get '/say/:number/:phrase'
+
 end
